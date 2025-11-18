@@ -17,6 +17,7 @@ const work = [
     position: 'Jr. Software Engineer (AI/ML)',
     url: 'https://www.cyberbells.com/',
     startDate: '2025-08-04',
+    endDate: '2025-11-15',
     summary: 'A results-driven professional specializing in Python automation, full-stack AI application development, and end-to-end machine learning workflows. I have a proven track record of engineering scalable solutions for complex data processing, system migration, and AI integration, consistently focusing on performance optimization and robust deployment.',
     highlights: [
       'Engineered Python automation scripts to process and migrate over 10,000 products across 20+ categories to the Shopify platform.',

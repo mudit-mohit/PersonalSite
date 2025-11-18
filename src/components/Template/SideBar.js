@@ -19,7 +19,12 @@ const SideBar = () => (
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m Mudit, a Jr. Software Engineer (AI/ML) at <a href="https://www.cyberbells.com/">Cyberbells ITES Services Pvt Ltd</a>.</p>
+      <p>
+        Hi, I&apos;m Mudit, a GenAI Engineer specializing in building production-ready AI systems.
+        I develop intelligent voice agents and human-in-the-loop architectures using LLMs,
+        RAG, and real-time audio processing. Currently seeking opportunities to build impactful
+        AI solutions.
+      </p>
       <ul className="actions">
         <li>
           {!window.location.pathname.includes('/resume') ? <Link to="/resume" className="button">Learn More</Link> : <Link to="/about" className="button">About Me</Link>}
