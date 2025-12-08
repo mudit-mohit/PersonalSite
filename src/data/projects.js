@@ -1,6 +1,15 @@
 // TODO Add a couple lines about each project
 const data = [
   {
+    title: 'Human-in-the-Loop AI Supervisor',
+    subtitle: 'Real-Time Voice AI Agent with Intelligent Human Escalation',
+    link: 'https://github.com/mudit-mohit/Human-in-the-Loop-AI-Supervisor',
+    image: '/images/projects/humanintheloopaisupervisor.png',
+    date: '2023-11-01',
+    desc:
+      'An intelligent voice receptionist system that autonomously handles customer calls while seamlessly escalating complex queries to human supervisors in real-time. Built using LiveKit WebRTC for voice communication, Groq Whisper for speech-to-text, and Llama 3.3 70B for natural language understanding, the system features a custom audio processing pipeline with sub-second latency.',
+  },
+  {
     title: 'Multimodal RAG',
     subtitle: 'A unified AI assistant that understands text, tables, and images within documents.',
     link: 'https://github.com/mudit-mohit/AI-Chatbot',
