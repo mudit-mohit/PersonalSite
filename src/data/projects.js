@@ -1,6 +1,33 @@
 // TODO Add a couple lines about each project
 const data = [
   {
+    title: 'The Mini-Wallet Service',
+    subtitle: 'Production-Ready Financial Transaction System with ACID Compliance',
+    link: 'https://github.com/mudit-mohit/mini-wallet-service',
+    image: '/images/projects/The Mini-Wallet Service.png',
+    date: '2023-11-01',
+    desc:
+      'A full-stack digital wallet application built with Node.js and PostgreSQL, featuring atomic money transfers, real-time balance updates, and comprehensive transaction management. Implements industry-standard financial software patterns including ACID-compliant database transactions, row-level locking for race condition prevention, and decimal-precise calculations using NUMERIC data types.',
+  },
+  {
+    title: 'Realtime Q&A Dashboard',
+    subtitle: 'Full-Stack Real-Time Collaboration Platform with WebSocket Live Updates',
+    link: 'https://github.com/mudit-mohit/Real-Time-Q-A-Dashboard',
+    image: '/images/projects/realtimeqandadashboard.png',
+    date: '2023-11-01',
+    desc:
+      'A production-ready Q&A platform built with Next.js and FastAPI that enables real-time collaboration between users and moderators. The application features WebSocket-based live updates for instant question/answer synchronization across 100+ concurrent users, JWT authentication with role-based access control, and SQLAlchemy ORM for managing relational database operations. Implements AJAX XMLHttpRequest for form validation, automated question escalation workflows with status tracking, and webhook integration for external service notifications. The system includes an admin dashboard with privileged moderation actions and real-time notification system for new submissions.',
+  },
+  {
+    title: 'Flow Forge',
+    subtitle: 'Drag-and-Drop Visual Pipeline Builder with Real-Time DAG Validation',
+    link: 'https://github.com/mudit-mohit/FlowForge',
+    image: '/images/projects/flowforge.png',
+    date: '2023-11-01',
+    desc:
+      'A visual node-based pipeline editor built with React and FastAPI that allows users to create complex data processing workflows through an intuitive drag-and-drop interface. Features include 9 customizable node types, dynamic handle positioning based on content, real-time edge connections with smooth animations, and backend validation using Kahns algorithm to detect cycles and ensure directed acyclic graph compliance. The application uses Zustand for state management, React Flow for canvas rendering, and provides instant visual feedback with toast notifications.',
+  },
+  {
     title: 'Human-in-the-Loop AI Supervisor',
     subtitle: 'Real-Time Voice AI Agent with Intelligent Human Escalation',
     link: 'https://github.com/mudit-mohit/Human-in-the-Loop-AI-Supervisor',
@@ -14,7 +41,6 @@ const data = [
     subtitle: 'A unified AI assistant that understands text, tables, and images within documents.',
     link: 'https://github.com/mudit-mohit/AI-Chatbot',
     image: '/images/projects/multimodalrag.png',
-    date: '2023-11-01',
     desc:
       'I designed and developed a sophisticated Multimodal RAG application using Streamlit to intelligently process and query complex documents. The system ingests PDFs, PowerPoints, and images, converting them into a unified vector store within Milvus.',
   },
