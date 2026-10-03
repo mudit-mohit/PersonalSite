@@ -123,7 +123,7 @@ const courses = [
     university: 'NIIT University',
   },
   {
-    title: 'Probability & Random Access',
+    title: 'Probability & Random Process',
     number: 'MAT 221',
     link: '',
     university: 'NIIT University',

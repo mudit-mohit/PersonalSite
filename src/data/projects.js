@@ -1,6 +1,86 @@
 // TODO Add a couple lines about each project
 const data = [
   {
+    title: 'Task Management System',
+    subtitle: 'Full-Stack GraphQL Task Manager with JWT Auth and Role-Based Access Control',
+    link: 'https://github.com/mudit-mohit/task-management-system',
+    image: '/images/projects/taskmanagementsystem.png',
+    desc:
+      'A full-stack task management application built with FastAPI, Strawberry GraphQL, and PostgreSQL 17 on the backend, and React 18 + TypeScript with Apollo Client and Tailwind CSS on the frontend. Implements JWT authentication with role-based access control, project/task management, and real-time subscriptions, following a layered Repository -> Service -> GraphQL resolver architecture built around SOLID principles. Fully containerized with Docker Compose, with Alembic migrations run automatically on startup.',
+  },
+  {
+    title: 'SpaceWora Interiors',
+    subtitle: 'Lead-Generation Website for a Mumbai Interior Design Studio',
+    link: 'https://spacewora.com/',
+    image: '/images/projects/spacewora.png',
+    desc:
+      'A conversion-focused marketing site for SpaceWora Interiors, a premium Mumbai interior design studio. Features an embedded consultation-booking form with property type and budget qualification, before/after project galleries, brand partner logos, trust signals like warranty and move-in guarantees, and WhatsApp-integrated lead capture, deployed as a fully responsive static site.',
+  },
+  {
+    title: 'ISKCON Vrindavan Seva',
+    subtitle: 'Temple Website with Live Darshan, Donations, and an Admin CMS',
+    link: 'https://iskcon-vrindavan-kbcc-350s7nwuk-mudit-mohits-projects-f1d0f3ab.vercel.app/',
+    image: '/images/projects/iskcontemplewebsite.png',
+    desc:
+      'A full temple website for ISKCON Vrindavan Seva (Sri Krishna Balaram Mandir), built as a static HTML/CSS/JS site with Vercel serverless functions for the backend. Features live darshan streaming, Razorpay-integrated donation flows, festival calendars, CSR and international outreach pages, and a custom admin panel backed by Supabase for managing site content, festivals, and donation records.',
+  },
+  {
+    title: 'Saras AI Landing',
+    subtitle: 'Marketing Landing Page for Saras AI Institute\'s Master of Science in AI Engineering',
+    link: 'https://saras-ai-landing.netlify.app/',
+    image: '/images/projects/sarasailanding.png',
+    desc:
+      'A conversion-focused marketing landing page for Saras AI Institute\'s project-only Master of Science in AI Engineering program. Highlights cohort details, pricing, and outcomes with a hero section, enterprise-project callouts, and social proof stats, built as a fully responsive static site and deployed on Netlify.',
+  },
+  {
+    title: 'File Explorer',
+    subtitle: 'VS Code-style Browser File Explorer with Live Nested Editing',
+    link: 'https://file-explorer-lac-ten.vercel.app/',
+    image: '/images/projects/fileexplorer.png',
+    desc:
+      'A VS Code-style file explorer built with React and Vite that lets users create, rename, delete, and edit nested files and folders directly in the browser. Workspace state persists via localStorage, giving a smooth, live-editing workspace feel entirely on the client side with no backend required.',
+  },
+  {
+    title: 'DPDP Compliance Checker',
+    subtitle: 'AI-Powered Privacy Policy Compliance Analysis for India\'s DPDP Act 2023',
+    link: 'https://github.com/mudit-mohit/dpdp-compliance-checker',
+    image: '/images/projects/dpdpcompliancechecker.png',
+    desc:
+      'A full-stack web application that analyzes privacy policies for compliance with India\'s Digital Personal Data Protection (DPDP) Act 2023. Built with a FastAPI backend and React 19/Vite frontend, it uses Sentence Transformers for semantic clause-matching against DPDP requirements, producing automatic compliance scoring, Low/Medium/High risk classification, and downloadable PDF reports with clause-by-clause visual breakdowns. Supports both file upload and URL-based policy analysis, backed by SQLAlchemy persistence and a Dockerized, Jenkins-driven CI/CD pipeline.',
+  },
+  {
+    title: 'Overnight Intelligence Platform',
+    subtitle: 'AI-First Overnight Activity Review and Morning Briefing System',
+    link: 'https://overnight-intelligence-platform.vercel.app/',
+    image: '/images/projects/overnightintelligenceplatform.png',
+    desc:
+      'An AI-first overnight activity review and morning briefing system that helps operations leads investigate overnight security events before leadership arrives. Uses Groq Llama 3 with a transparent, tool-calling agent architecture to gather event context, evaluate risk, and detect cross-event patterns, surfacing its full reasoning process and uncertainty while keeping humans in control of final decisions on escalation and drone patrol dispatch.',
+  },
+  {
+    title: 'Smart Bookmarks',
+    subtitle: 'Full-Stack Bookmark Manager with Google OAuth and Real-Time Sync',
+    link: 'https://smart-bookmarks-seven.vercel.app/',
+    image: '/images/projects/smartbookmarks.png',
+    desc:
+      'A full-stack bookmark management application built with Next.js 14, Supabase, and Tailwind CSS. Users sign in with Google OAuth, save and organize bookmarks with per-user isolation enforced through Row Level Security, and see changes sync instantly across browser tabs via Supabase real-time subscriptions.',
+  },
+  {
+    title: 'Fact-Check App',
+    subtitle: 'Local-First PDF Claim Extraction & Verification with Ollama and Web Search',
+    link: 'https://mudit-mohit-fact-checking-web-app-app-3klw6v.streamlit.app/',
+    image: '/images/projects/factcheckingwebapp.png',
+    desc:
+      'A privacy-focused Streamlit application that extracts verifiable factual claims from PDF documents using LangChain and a local Ollama LLM, then verifies each claim against the web via Tavily search and Ollama reasoning. Generates an interactive fact-check report with Verified/Inaccurate/False verdicts, confidence scores, and downloadable txt/json/html output, running entirely on local inference with no cloud API keys required for extraction or verification.',
+  },
+  {
+    title: 'Worker Productivity Dashboard',
+    subtitle: 'Real-Time Factory Monitoring Dashboard Powered by AI-Detected CCTV Events',
+    link: 'https://ai-powered-worker-productivity-dashboard-ccs2.onrender.com/',
+    image: '/images/projects/workerproductivitydashboard.png',
+    desc:
+      'A full-stack web application for monitoring worker activity and productivity metrics in a manufacturing factory using AI-powered CCTV events. Built with a Python Flask API backend and a React dashboard frontend, it tracks per-worker and per-workstation utilization, active/idle time, and production rates, with configurable date-range filtering and sortable worker cards for at-a-glance factory oversight.',
+  },
+  {
     title: 'The Mini-Wallet Service',
     subtitle: 'Production-Ready Financial Transaction System with ACID Compliance',
     link: 'https://github.com/mudit-mohit/mini-wallet-service',

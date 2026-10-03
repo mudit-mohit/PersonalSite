@@ -13,6 +13,22 @@
  */
 const work = [
   {
+    name: 'OutMate AI Pvt Ltd',
+    position: 'Founding Engineer',
+    url: 'https://www.outmate.ai/',
+    startDate: '2026-02-01',
+    endDate: undefined,
+    summary: 'A full-stack engineer building and hardening production features for an AI-powered GTM SaaS platform — spanning FastAPI/PostgreSQL/Celery backend services and a Next.js/TypeScript frontend — with a focus on closing gaps between designed and actually-wired functionality, and on production reliability under live incident conditions.',
+    highlights: [
+      'Shipped a human-in-the-loop approval gate for AI-drafted outbound emails, letting reps review and approve or reject Autopilot-generated first-touch and reply messages before they send.',
+      'Built an automated signal-to-outreach trigger pipeline that generates personalized outreach drafts the moment a tracked account produces a qualifying buying-intent signal, replacing a fully manual trigger.',
+      'Integrated Google Calendar and Calendly into the platform’s calendar view with real-time event sync, including fixing a false-positive OAuth connection state and wiring Calendly bookings and cancellations into the live event feed.',
+      'Diagnosed and resolved a production incident causing 100% login failure across the platform, root-causing it to a database schema/deployment mismatch and shipping a hand-verified emergency Alembic migration to restore service.',
+      'Hardened the platform’s rate-limiting layer to fail open under Redis outages instead of hard-erroring, preventing a single infrastructure dependency from taking down authentication and other rate-limited routes.',
+      'Closed gaps between designed and actually-wired functionality across 10+ backend services and API routes by auditing existing features against their intended behavior and shipping targeted fixes.',
+    ],
+  },
+  {
     name: 'Cyberbells ITES Services Pvt Ltd',
     position: 'Jr. Software Engineer (AI/ML)',
     url: 'https://www.cyberbells.com/',

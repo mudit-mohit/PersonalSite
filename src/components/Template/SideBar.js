@@ -21,9 +21,11 @@ const SideBar = () => (
       <h2>About</h2>
       <p>
         Hi, I&apos;m Mudit, a GenAI Engineer specializing in building production-ready AI systems.
-        I develop intelligent voice agents and human-in-the-loop architectures using LLMs,
-        RAG, and real-time audio processing. Currently seeking opportunities to build impactful
-        AI solutions.
+        I recently extended an AI-powered GTM SaaS platform&apos;s Copilot/Autopilot module —
+        shipping human-in-the-loop approval gates for AI-drafted outreach, automated signal-to-
+        outreach pipelines, and Google Calendar/Calendly integrations — and diagnosed and
+        resolved a live production outage under pressure. Currently seeking opportunities to
+        build impactful AI solutions.
       </p>
       <ul className="actions">
         <li>
